@@ -1,0 +1,43 @@
+site_name: The Nature of Software
+theme:
+  name: material
+  custom_dir: docs/theme
+  logo: assets/leaf.svg
+  palette: 
+    scheme: default
+    primary: black
+    accent: blue grey
+  features:
+  - navigation.tabs
+  - navigation.path
+
+docs_dir: docs
+nav:
+  - Home: index.md
+  - Blog: blog/index.md
+
+plugins:
+  - blog
+
+extra:
+  generator: true
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/thenatureofsoftware
+
+copyright: Copyright &copy; 2017 - 2024 The Nature of Software Nordic AB
+
+home:
+  #image: assets/logo-white-font-2.png
+  #image: assets/logo-white.svg
+  image: assets/tnos-logo.webp
+  #image: assets/logo-white-font-square.webp
+  
+  tagline: All Cloud Native
+  description: |
+    Welcome to "The Nature of Software" - a hub where technology meets innovation.
+    We specialize in Kubernetes and cloud-native software development,
+    helping businesses navigate the complexities of modern software solutions.
+    Our passion lies in exploring and leveraging the power of Kubernetes to create scalable, efficient, and robust systems. Dive into our insights and join us in our journey through the evolving landscape of software development.
+  features: true
+
